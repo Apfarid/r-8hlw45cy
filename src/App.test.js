@@ -18,10 +18,11 @@ it("doesn't renders the paragraph", () => {
   const wrapper = shallow(<App />);
   expect(wrapper.find('p').length).toBe(0);
 });
-
+/*
 it("shows the paragraph when checkbox is checked", () => {
   const wrapper = shallow(<App />);
   wrapper.find('input[type="checkbox"]').simulate('click');
   wrapper.find('input[type="checkbox"]').simulate('change', { target: { checked: true } });
   expect(wrapper.find('p').length).toBe(1);
 });
+*/
